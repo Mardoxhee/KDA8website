@@ -11,16 +11,6 @@ body{
 }
 /*************************************************************HEADER+MENUS***********************************/
 
-#allscreen{
-    display: flex;
-    flex-direction: column;
-    margin: 0 ;
-    padding: 0;
-    width: 100vw;
-
-}
-
-
 header{
     width: 100vw;
     height: 84px;
@@ -67,14 +57,7 @@ nav{
 
 /*****************************************************************TOUTELAPAGE *********************************************/
 
-#allsections{
-    
-    /*: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column; */
-    
-}
+
 
  /******************************************************************SECTION1**************************/
 
@@ -158,12 +141,43 @@ font-weight: 500;
 
 
  #section2 {
-    height: 100vh;
-    width: 100vw;
+    
+    
+  
 }
 
 #whitespace{
     width: 100vw;
     height: 762px;
+}
+
+   
+
+
+#texaf{
+display: inline-block;
+margin-top: 80px;
+margin-left: -50px;
+
+}
+#texaf img {
+    border-radius: 30px;
+    width: 700px;
+    width: 525px;
+}
+
+#kdac{
+    display: inline-block;
+    margin-left: -220px;
+    margin-bottom: 300px;
+   
     
 }
+#kdac img {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-bottom: -100px;
+    
+}
+
