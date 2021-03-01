@@ -379,6 +379,12 @@ margin-top: 60px;
     font-size: 1.75rem;
 
 }
+#titreh4{
+    color: #d92950;
+    font-family: 'Montserratregular', sans-serif;
+    font-size: 1.75rem;
+}
+
 #prj{
     width: 550px;
     font-family: 'Montserratregular', sans-serif;
@@ -387,6 +393,14 @@ margin-top: 60px;
     margin-right: -100px;
     margin-top: -5px;
 
+}
+#prjt2{
+    width: 550px;
+    font-family: 'Montserratregular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-right: -100px;
+    margin-top: -5px; 
 }
 
 #demarrer{
@@ -403,6 +417,20 @@ margin-top: 60px;
     font-size: 20px;
     margin-top: 50px;
 }
+#demarrer2{
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #d92950;  
+    border: 1px solid ;
+    margin: 0 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
 #demarrer:hover{
     background-color: transparent;
     color: #d92950; 
@@ -410,6 +438,15 @@ margin-top: 60px;
     border:#d92950 solid 2px;
     
       }
+
+#demarrer2:hover{
+    background-color: transparent;
+    color: #d92950; 
+    border-color: white;
+    border:#d92950 solid 2px;
+    
+      }
+      
 
 
 #equipe{
@@ -584,4 +621,108 @@ border-radius: 20px;
     background-color:transparent  ;
     border: solid 2px white;
 }
+/***************************************************************SECTION5********************************************************/
+#section5{
+    background-color: #f1f0f3;
+    align-items: center;
+    display: flex;
+   justify-content: center;
+    margin-top: 88px;
 
+    
+}
+#emploi{
+    margin-top: 70px;
+    height: 648px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+   
+}
+#p2{
+    display: flex;
+    flex-direction: column;
+}
+#eq{
+    color: #424345;
+    font-family: 'Montserratregular', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+   
+}
+
+#eqr{
+    color: #d92950;
+}
+#ql{
+    width: 570px;
+    height: 96px;
+    margin-left:0px;
+    font-family: 'Montserratregular', sans-serif;
+    font-weight: 100;
+  
+}
+#p2{
+    display: flex;
+    flex-direction: row;
+}
+#remu{
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+
+ .rem{
+     height: 50px;
+     width: 50px;
+
+ }
+ #gche{
+     background-color: #ffffff;
+     height: 280px;
+     width: 250px;
+     display: flex;
+     flex-direction: column;
+     margin: 15px; 
+     border-radius: 15px;
+     padding: 20px;
+ }
+
+#drte{
+    background-color: #ffffff;
+    height: 280px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px; 
+    border-radius: 15px;
+    padding: 20px;
+
+}
+#mure{
+    display: flex;
+    flex-direction: column;
+   
+}
+#rand{
+    background-color: #ffffff;
+    height: 280px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    margin: 15px; 
+    border-radius: 15px;
+    padding: 20px;
+}
+#sacr{
+    background-color: #ffffff;
+    height: 280px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    margin: 15px; 
+    border-radius: 15px;
+    padding: 20px;
+}
