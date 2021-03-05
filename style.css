@@ -554,21 +554,25 @@ width: 100vw;
 }
 
 #prj{
-    width: 550px;
-    font-family: 'Montserratregular', sans-serif;
-    font-weight: 400;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    
     text-align: center;
-  
+    color: rgba(24,0,39,.87);
+    font-size: 1rem;
     margin-top: -5px;
+    line-height: 1.5;
 
 }
 #prj2{
-    width: 550px;
-    font-family: 'Montserratregular', sans-serif;
-    font-weight: 400;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    
     text-align: center;
-   
+    color: rgba(24,0,39,.87);
+    line-height: 1.5;
     margin-top: -5px; 
+    font-size: 1rem;
 }
 
 #demarrer{
@@ -583,7 +587,7 @@ width: 100vw;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #demarrer2{
     padding: 15px 25px;
@@ -596,7 +600,7 @@ width: 100vw;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #demarrer:hover{
@@ -676,7 +680,8 @@ width: 100vw;
 #skill {
 display: flex;
 
-margin: 50px 0px;
+margin-bottom: 130px;
+margin-top: 15px;
 
 }
 #hdsk{
@@ -694,7 +699,10 @@ margin: 50px 0px;
 #hskills{
     display: flex;
     height: 100%;
-    width: 100%;   
+    width: 100%; 
+    font-family: 'Ubuntu Mono', monospace;
+    color: #424345;  
+    font-size: 1.3rem;
 }
 
 
@@ -774,13 +782,16 @@ margin: 15px;
 }
 #compo{
     background-color: #dedde0;
-    height: 350px;
-    width: 400px;
+    height: 320px;
+    width: 350px;
     border-radius: 20px;
     
     }  
 
 #compo>ol{
+  
+        height: 202px;
+        width: 310px;
         font-size: 1.3rem;
         font-family: 'Ubuntu Mono',monospace;
         margin-top: 50px;
@@ -810,7 +821,27 @@ margin: 15px;
     }
 
 #pretitle{
+    margin-top: 100px;
     font-size: 2.5rem;
+}
+
+#tout1, #tout2, #tout3, #tout4{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.3rem;
+    align-items: center;
+  
+}
+
+#tout3>P{
+    margin-left: -50px;
+}
+#tout2>p{
+    margin-left: -50px;
+}
+#tout1>p{
+    margin-left: -50px;
 }
 
 
@@ -876,6 +907,7 @@ margin: 15px;
 }
 /***************************************************************SECTION5********************************************************/
 #section5{
+    margin-top: 100px;
     background-color: #f1f0f3;
     align-items: center;
     display: flex;
@@ -913,12 +945,13 @@ margin: 15px;
 #eqr{
     color: #d92950;
 }
-#ql{
+#emploi>#ql{
     width: 570px;
     height: 96px;
     margin-left:0px;
     font-family: 'Montserratregular', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
+    
   
 }
 #p2{
@@ -1071,7 +1104,7 @@ margin: 15px;
 }
 
 #blck>div{
-    margin:0px 40px;
+    margin:0px 35px;
 
 }
 #ja{
@@ -1297,7 +1330,7 @@ color: #d92950;
 #send:hover{
     background-color: transparent;
     border: 2px solid #d92950; 
-    
+
 }
 
 /**************************************************************SECTION9***************************************************/
