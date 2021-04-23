@@ -541,6 +541,7 @@ width: 100vw;
 }
 
 #projet{
+     padding-top:50px;
     height: 286px;
     width: 570px;
     background-color: white;
@@ -555,7 +556,7 @@ width: 100vw;
 }
 
 #equipe{
-
+    padding-top:50px;
     height: 286px;
     width: 570px;
     background-color: white;
