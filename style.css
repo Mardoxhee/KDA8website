@@ -103,12 +103,12 @@ h1{
 }
 
 .btns{
-
+    
     padding: 15px 25px;
     color: #d92950;
     background-color: white ;    
     border: 1px solid ;
-    margin: 0 15px;
+    margin: 80px 15px;
     border-radius: 15px;
     text-decoration: none;
     font-weight: bold;
