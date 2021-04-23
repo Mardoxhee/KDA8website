@@ -914,6 +914,7 @@ margin: 15px;
 
 
 #btnplan{
+    border: solid 2px #d92950; 
     margin: 80px 0px;
     color: white;
     text-decoration: none;
